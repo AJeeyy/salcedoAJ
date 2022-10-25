@@ -1,0 +1,112 @@
+html{ 
+ background-color:beige;
+    height: 100%;
+    
+ 
+}
+
+#container {
+    height: 200px;
+    width: 550px;
+    background-color: beige;
+    display: grid;
+    margin: 0 auto;
+    border: 5px solid #88B169;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    
+    
+    
+}
+
+#input {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+#input2 {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+#meter{
+    height: 25px;
+    width: 125px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2:
+}
+
+#feet{
+    height: 25px;
+    width: 125px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2:
+}
+
+#cel{
+    height: 25px;
+    width: 125px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2:
+}
+
+#fah{
+    height: 25px;
+    width: 125px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2:
+}
+
+#output{
+    height: 25px;
+    width: 250px;
+     grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+}
+
+#output2{
+    height: 25px;
+    width: 250px;
+     grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+}
+
+#TaxCalculator {
+    height: 200px;
+    width: 550px;
+    background-color: beige;
+    display: grid;
+    margin: 0 auto;
+    border: 5px solid #88B169;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    
+    
+    
+}
